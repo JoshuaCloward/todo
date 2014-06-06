@@ -15,7 +15,7 @@
  */
      body
      {
-       background-color: gray;
+       background-color: white;
 
      }
     #wrap
@@ -24,19 +24,28 @@
       margin: 0 auto;
       background-color: white;
       padding: 15px;
+      border-left: solid;
+      border-right: solid;
+      border-size: 5px;
+    }
+    #links
+    {
+      margin: 0 auto;
+      text-align: right;
     }
     #links a
     {
-        margin-right: 15px;
+        padding: 15px;
         border-right: solid;
-        border: 20px;
+        border-width: 2px;
     }
     .foot
     {
-      background-color: #444444;
+      background-color: #DDDDDD;
       display: block;
     }
-    .foot p
+    .foot li
     {
-      color: white;
+      display: inline;
+
     }
